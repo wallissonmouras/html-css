@@ -1,0 +1,10 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-size: 1em;
+} /*16px geralmente = 1em*/
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

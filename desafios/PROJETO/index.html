@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Empréstimo JavaScript</title>
+    <style>
+        output{font-weight: bold;}
+        
+    </style>
+</head>
+<body>
+    <table>
+        <tr><th>Insira os dados do Empréstimo</th>
+        <td></td>
+    <th>Saldo de |Empréstimo, Patrimônio comulativo e pagamento de juros</th></tr>
+    <tr><td>Valor do Empréstimo($):</td>
+        <td><input id="Quantidade" onchange="calculate();"></td>
+        <td rowspan="8">
+            <canvas id="graph" width="400" height="250"></canvas></td></tr>
+            <tr><td>Juros Anuais(%):</td>
+                <td><input id="apr" onchange="calculate();"></td></tr>
+            <tr><td>Período de reembolso (anos):</td>
+                <td><input id="anos" onchange="calculate();"></td> 
+             </tr>    
+             <tr></tr>
+    </table>
+
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de HOVER</title>
+    <style>
+        body{
+            font-family:'Courier New', Courier, monospace
+        }
+        div > p{
+            display: none;
+        }
+       div:hover > p {
+        display:block;
+        color: white;
+        background-color: red;
+       }
+        div:hover{
+            color: red;
+        }
+        .p1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui 
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+    <p class="p1">aqui termina o teste de com hover &#X2764</p>
+
+</body>
+</html>
